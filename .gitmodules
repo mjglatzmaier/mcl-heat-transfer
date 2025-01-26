@@ -1,0 +1,6 @@
+[submodule "external/mcl-mesh"]
+	path = external/mcl-mesh
+	url = https://github.com/mjglatzmaier/mcl-mesh.git
+[submodule "external/mcl-shared"]
+	path = external/mcl-shared
+	url = https://github.com/mjglatzmaier/mcl-shared.git
