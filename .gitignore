@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+
+#Build
+build/
+local_install/

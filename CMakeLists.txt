@@ -21,7 +21,10 @@ enable_testing()
 
 # Add include directories
 include_directories(${CMAKE_SOURCE_DIR}/inc)
+#include_directories(${CMAKE_CURRENT_SOURCE_DIR}/external/mcl-shared/inc)
 
 # Add the tests directory
+add_subdirectory(external/mcl-shared)
+add_subdirectory(external/mcl-mesh)
 add_subdirectory(src)
-add_subdirectory(tests)
+#add_subdirectory(tests)
