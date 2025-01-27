@@ -37,6 +37,11 @@ Follow the steps below to set up dependencies using [vcpkg](https://github.com/m
    ```bash  
    "toolchainFile": "/path/to/vcpkg/scripts/buildsystems/vcpkg.cmake"
 
+4. **Note: to untrack changes for the preset file but keep the template in the repo,**
+   ```bash 
+   git update-index --assume-unchanged CMakePresets.json
+   git update-index --no-assume-unchanged CMakePresets.json
+
 4. **Install the Ninja Build System (if not already installed)**
    ```bash
    sudo apt-get install ninja

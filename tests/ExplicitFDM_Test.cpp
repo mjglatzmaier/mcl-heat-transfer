@@ -1,6 +1,6 @@
 #include <gtest/gtest.h>
 
-#include "modulefactory.hpp"
+#include "ModuleFactory.hpp"
 #include "Pipeline.hpp"
 
 
